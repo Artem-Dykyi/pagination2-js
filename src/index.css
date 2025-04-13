@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+
+.list{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 694px ;
+    list-style: none;
+}
+
+.list__item{
+    max-width: 200px;
+    background-color: blanchedalmond;
+    border: #b69877;
+    width: 100%;
+
+}
+
+.list__title {
+    color: #b69877;
+}
+
+.list__subtitle{
+    color: #b69877;
+}
+
+.list__location{
+    color: #b69877;
+}
+
+.btn{
+    border-color: blanchedalmond;
+    color: #ffedc0;
+    padding: 12px 24px;
+}
+
+.list__img{
+    width: 100%;
+    height: 100%;
+    
+}
